@@ -111,8 +111,8 @@ function getalldata(one,two){
 		},
 		error: (err) => {
 
-            console.log(err.responseJSON.error.message);
-            alert(err.responseJSON.error.message)
+            console.log(err.dataJSON.error.message);
+            alert(err.dataJSON.error.message)
 
         },
 		timeout:3000 
