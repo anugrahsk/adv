@@ -107,7 +107,7 @@ function getalldata(one,two){
 			}
 			
 		},
-		error: (err) => {
+		error:(err) => {
 
             console.log(err.dataJSON.error.message);
             alert(err.dataJSON.error.message)
