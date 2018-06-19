@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
 	$("#level").click(function(e){
 		 e.preventDefault();
