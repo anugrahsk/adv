@@ -1,0 +1,72 @@
+*{
+	padding:0;
+	border:0;
+	margin:0;
+}
+body{
+	background-image:url("mini.jpg");
+}
+#wew{
+	color:#fff;
+}
+.outer{
+	padding-top:4vh;
+	padding-left:2vw;
+	padding-right:2vw;
+	
+}
+#down{
+	width:90%;
+	height:65vh;
+}
+#tooth{
+	background-image:url('water.jpg');
+	border:2px solid black;
+	font-family:Helventica;
+	font-size:1.4em;
+	color:#fff;
+}
+.down{
+	
+	display:flex;
+	flex-direction:column;
+	padding:1vh 4vw 1vh 4vw;
+}
+.item{
+	width:100%;
+	justify-content:center;
+	align-items:center-right;
+	display:none;
+}
+.up{
+	
+	background-color:#f2f2f2;
+	display:block;
+	box-sizing:border-box;
+	position:relative;
+	padding:1vh 2vw 2vw 2vw;
+	background-image:url('blu.jpg');
+	background-position:center-left;
+	color:white;
+	border:2px black solid;
+	font-size:1.1em;
+	font-family:Comic Sans MS;
+
+}
+#photo{
+	width:50%;
+
+		
+}
+#c1{
+	padding-top:1vh;
+}
+@media (min-width:500px)
+{
+	.down{
+		flex-direction:row;
+	}
+	#photo{
+		align-items:center;
+	}
+}
