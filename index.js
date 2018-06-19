@@ -36,7 +36,7 @@ function getalldata(one,two){
 		type:'GET',
 		datatype:'JSON',
 		async: true,
-		url: 'http://www.omdbapi.com/?i=tt3896198&apikey=72b7321f',
+		url: 'https://www.omdbapi.com/?i=tt3896198&apikey=72b7321f',
 		method:'GET',
 		success:(data)=>
 		{	
